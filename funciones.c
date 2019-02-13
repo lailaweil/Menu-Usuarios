@@ -137,7 +137,7 @@ void imprimir_usuarios ( nodo_t ** p){
 }
 //**********************************************************************************************************
 int elimina_usuario (nodo_t ** p, char * legajo){
-	nodo_t * comienzo = (*p)
+	nodo_t * comienzo = (*p);
 	nodo_t * aux ; //me guardo el comienzo de la lista
 	int i=0;
 
